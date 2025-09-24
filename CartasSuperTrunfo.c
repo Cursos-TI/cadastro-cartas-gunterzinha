@@ -19,7 +19,7 @@ int main (){
 
     //variaveis que o usuario ira preenher
     char cidade [50]; // nome de cidade com até 49 caracteres
-    float habitantes; // Número de habitantes
+    int habitantes; // Número de habitantes
     float area;  // Área em km²
     float pib; // PIB da cidade
     int turistico; // Número de pontos turísticos
@@ -35,7 +35,7 @@ int main (){
     scanf ("%d", &turistico);
 
     printf ("digite a quatidade de habitantes: \n");
-    scanf ("%f", &habitantes);
+    scanf ("%d", &habitantes);
 
     printf ("digite o PIB da cidade: \n");
     scanf ("%f", &pib);
@@ -44,7 +44,7 @@ int main (){
     printf ("Carta1 = %c%s\n", estado1, codigo1);
     printf ("nome da cidade: %s\n",cidade);
     printf ("area da cidade: %.2f km²\n", area);
-    printf ("quatidade de habitantes: %f\n",habitantes);
+    printf ("quatidade de habitantes: %d\n",habitantes);
     printf ("PIB da cidade: %f\n",pib);
     printf ("quantidade de pontos turisticos: %d\n",turistico);
     
@@ -61,7 +61,7 @@ int main (){
     scanf ("%d", &turistico);
 
     printf ("digite a quatidade de habitantes: \n");
-    scanf ("%f", &habitantes);
+    scanf ("%d", &habitantes);
 
     printf ("digite o PIB da cidade: \n");
     scanf ("%f", &pib);
@@ -70,7 +70,7 @@ int main (){
     printf ("Carta2 = %c%s\n", estado2, codigo2);
     printf ("nome da cidade: %s\n",cidade);
     printf ("area da cidade: %.2f km²\n", area);
-    printf ("quatidade de habitantes: %f\n",habitantes);
+    printf ("quatidade de habitantes: %d\n",habitantes);
     printf ("PIB da cidade: %f\n",pib);
     printf ("quantidade de pontos turisticos: %d\n",turistico);
 
@@ -87,7 +87,7 @@ int main (){
     scanf ("%d", &turistico);
 
     printf ("digite a quatidade de habitantes: \n");
-    scanf ("%f", &habitantes);
+    scanf ("%d", &habitantes);
 
     printf ("digite o PIB da cidade: \n");
     scanf ("%f", &pib);
@@ -96,7 +96,7 @@ int main (){
     printf ("Carta3 = %c%s\n", estado3, codigo3);
     printf ("nome da cidade: %s\n",cidade);
     printf ("area da cidade: %.2f km²\n", area);
-    printf ("quatidade de habitantes: %f\n",habitantes);
+    printf ("quatidade de habitantes: %d\n",habitantes);
     printf ("PIB da cidade: %f\n",pib);
     printf ("quantidade de pontos turisticos: %d\n",turistico);
 
@@ -112,7 +112,7 @@ int main (){
     scanf ("%d", &turistico);
 
     printf ("digite a quatidade de habitantes: \n");
-    scanf ("%f", &habitantes);
+    scanf ("%d", &habitantes);
 
     printf ("digite o PIB da cidade: \n");
     scanf ("%f", &pib);
@@ -121,7 +121,7 @@ int main (){
     printf ("Carta4 = %c%s\n", estado4, codigo4);
     printf ("nome da cidade: %s\n",cidade);
     printf ("area da cidade: %.2f km²\n", area);
-    printf ("quatidade de habitantes: %f\n",habitantes);
+    printf ("quatidade de habitantes: %d\n",habitantes);
     printf ("PIB da cidade: %f\n",pib);
     printf ("quantidade de pontos turisticos: %d\n",turistico);
 
