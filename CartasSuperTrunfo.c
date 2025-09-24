@@ -26,7 +26,7 @@ int main (){
 
 
     printf ("digitei o nome da cidade: \n");
-    scanf ("%[^\n]", cidade); // permite o usuario digitar o nome da cidade com espaço
+    scanf (" %[^\n]", cidade); // permite o usuario digitar o nome da cidade com espaço
 
     printf ("digite a area da cidade: \n");
     scanf ("%f", &area);
@@ -53,7 +53,7 @@ int main (){
     // limpa o buffer antes de ler a cidade
     while(getchar() != '\n');
     printf ("digitei o nome da cidade: \n");
-    scanf ("%[^\n]", cidade); // permite o usuario digitar o nome da cidade com espaço
+    scanf (" %[^\n]", cidade); // permite o usuario digitar o nome da cidade com espaço
 
     printf ("digite a area da cidade: \n");
     scanf ("%f", &area);
@@ -80,7 +80,7 @@ int main (){
     // limpa o buffer antes de ler a cidade
     while(getchar() != '\n');
     printf ("digitei o nome da cidade: \n");
-    scanf ("%[^\n]", cidade); // permite o usuario digitar o nome da cidade com espaço
+    scanf (" %[^\n]", cidade); // permite o usuario digitar o nome da cidade com espaço
 
     printf ("digite a area da cidade: \n");
     scanf ("%f", &area);
@@ -104,10 +104,8 @@ int main (){
 
     printf("\n");
     
-    // limpa o buffer antes de ler a cidade
-    while(getchar() != '\n');
     printf ("digitei o nome da cidade: \n");
-    scanf ("%[^\n]", cidade); // permite o usuario digitar o nome da cidade com espaço
+    scanf (" %[^\n]", cidade); // permite o usuario digitar o nome da cidade com espaço
 
     printf ("digite a area da cidade: \n");
     scanf ("%f", &area);
